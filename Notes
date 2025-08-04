@@ -1,0 +1,5 @@
+No third-party libraries used
+
+Completely MVVM-compliant structure
+
+ViewModel and state are testable and separated
