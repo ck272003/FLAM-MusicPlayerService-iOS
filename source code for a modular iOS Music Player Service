@@ -1,0 +1,49 @@
+MusicPlayerService/
+├── Models/ # Data models
+├── Sources/ # Different music sources
+├── ViewModels/ # Playback logic with Combine
+├── Views/ # SwiftUI User Interface
+├── Managers/ # Singleton Playback Manager
+└── MusicPlayerServiceApp.swift
+
+
+---
+
+## ⚙️ Technologies Used
+
+- **Swift 5.9+**
+- **Xcode 15+**
+- **iOS 15+**
+- **SwiftUI + Combine**
+- **MVVM Architecture**
+- **Design Patterns:** Singleton, Strategy
+
+---
+
+## 🎮 Features
+
+| Feature               | Description                                       |
+|----------------------|---------------------------------------------------|
+| 🎶 Multiple Sources   | Local Files & Spotify mock source                 |
+| ▶️ Playback Control   | Play, Pause, Stop                                 |
+| 🧠 Playback Manager   | Singleton that controls track & state             |
+| 🔁 Playlist Queue     | View + tap to play from list                      |
+| 🔄 Combine Updates    | Tracks and states updated reactively              |
+| 🎨 SwiftUI UI         | Clean and minimal interface                       |
+
+---
+
+## 📸 Screenshots
+
+*(You can add screenshots like below)*
+
+<img src="screenshots/track_list.png" width="300" />
+<img src="screenshots/now_playing.png" width="300" />
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repo  
+```bash
+git clone https://github.com/yourusername/MusicPlayerService.git
